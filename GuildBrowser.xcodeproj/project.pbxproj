@@ -190,7 +190,7 @@
 		DD802CB515ECD07B0043E6E7 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		DD802CB615ECD07B0043E6E7 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		DD802CB715ECD07B0043E6E7 /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
-		DD802CBE15ECE7F20043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdHoc_Distribution_Profile.mobileprovision; sourceTree = "<group>"; };
+		DD802CBF15ECED3D0043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdHoc_Distribution_Profile.mobileprovision; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +282,7 @@
 		CB9FDC4615E9872D00B3713E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD802CBF15ECED3D0043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */,
 				CB9FDC4715E9872D00B3713E /* GuildBrowser-Info.plist */,
 				CB9FDC4815E9872D00B3713E /* InfoPlist.strings */,
 				CB9FDC4B15E9872D00B3713E /* main.m */,
@@ -426,7 +427,6 @@
 		DD802C9715ECB7C70043E6E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DD802CBE15ECE7F20043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */,
 				DD802C9815ECB7C70043E6E7 /* GuildBrowserLogicTests-Info.plist */,
 				DD802C9915ECB7C70043E6E7 /* InfoPlist.strings */,
 				DD802C9F15ECB7C70043E6E7 /* GuildBrowserLogicTests-Prefix.pch */,
