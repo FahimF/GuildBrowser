@@ -17,8 +17,8 @@
         _realm = data[@"realm"];
         _thumbnail = data[@"thumbnail"];
         _battleGroup = data[@"battlegroup"];
-        _averageItemLevelEquipped = [data valueForKeyPath:@"items.averageItemLevelEquipped"];
-        _averageItemLevel = [data valueForKeyPath:@"items.averageItemLevel"];
+        _averageItemLevelEquipped = data[@"items"][@"averageItemLevelEquipped"];
+        _averageItemLevel = data[@"items"][@"averageItemLevel"];
         
         BOOL genderVal = [data[@"gender"] boolValue];
         if (genderVal) {
@@ -30,25 +30,25 @@
         // find selected spec
         _selectedSpec = [self selectedSpecFromTalents:data[@"talents"]];
         
-        _neckItem = [Item initWithData:[data valueForKeyPath:@"items.neck"]];
-        _wristItem = [Item initWithData:[data valueForKeyPath:@"items.wrist"]];
-        _waistItem = [Item initWithData:[data valueForKeyPath:@"items.wrist"]];
-        _handsItem = [Item initWithData:[data valueForKeyPath:@"items.hands"]];
-        _shoulderItem = [Item initWithData:[data valueForKeyPath:@"items.shoulder"]];
-        _chestItem = [Item initWithData:[data valueForKeyPath:@"items.chest"]];
-        _fingerItem1 = [Item initWithData:[data valueForKeyPath:@"items.finger1"]];
-        _fingerItem2 = [Item initWithData:[data valueForKeyPath:@"items.finger2"]];
-        _shirtItem = [Item initWithData:[data valueForKeyPath:@"items.shirt"]];
-        _tabardItem = [Item initWithData:[data valueForKeyPath:@"items.tabard"]];
-        _headItem = [Item initWithData:[data valueForKeyPath:@"items.head"]];
-        _backItem = [Item initWithData:[data valueForKeyPath:@"items.back"]];
-        _legsItem = [Item initWithData:[data valueForKeyPath:@"items.legs"]];
-        _feetItem = [Item initWithData:[data valueForKeyPath:@"items.feet"]];
-        _mainHandItem = [Item initWithData:[data valueForKeyPath:@"items.mainHand"]];
-        _offHandItem = [Item initWithData:[data valueForKeyPath:@"items.offHand"]];
-        _trinketItem1 = [Item initWithData:[data valueForKeyPath:@"items.trinket1"]];
-        _trinketItem2 = [Item initWithData:[data valueForKeyPath:@"items.trinket2"]];
-        _rangedItem = [Item initWithData:[data valueForKeyPath:@"items.ranged"]];
+        _neckItem = [Item initWithData:data[@"items"][@"neck"]];
+        _wristItem = [Item initWithData:data[@"items"][@"wrist"]];
+        _waistItem = [Item initWithData:data[@"items"][@"waist"]];
+        _handsItem = [Item initWithData:data[@"items"][@"hands"]];
+        _shoulderItem = [Item initWithData:data[@"items"][@"shoulder"]];
+        _chestItem = [Item initWithData:data[@"items"][@"chest"]];
+        _fingerItem1 = [Item initWithData:data[@"items"][@"finger1"]];
+        _fingerItem2 = [Item initWithData:data[@"items"][@"finger2"]];
+        _shirtItem = [Item initWithData:data[@"items"][@"shirt"]];
+        _tabardItem = [Item initWithData:data[@"items"][@"tabard"]];
+        _headItem = [Item initWithData:data[@"items"][@"head"]];
+        _backItem = [Item initWithData:data[@"items"][@"back"]];
+        _legsItem = [Item initWithData:data[@"items"][@"legs"]];
+        _feetItem = [Item initWithData:data[@"items"][@"feet"]];
+        _mainHandItem = [Item initWithData:data[@"items"][@"mainHand"]];
+        _offHandItem = [Item initWithData:data[@"items"][@"offHand"]];
+        _trinketItem1 = [Item initWithData:data[@"items"][@"trinket1"]];
+        _trinketItem2 = [Item initWithData:data[@"items"][@"trinket2"]];
+        _rangedItem = [Item initWithData:data[@"items"][@"ranged"]];
         _title = [self selectedTitle:data[@"titles"]];
     }
     return self;
