@@ -60,10 +60,32 @@
 		CB9FDD3415E9B34900B3713E /* WoWApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2715E9B34900B3713E /* WoWApiClient.m */; };
 		CB9FDD3515E9B34900B3713E /* WowItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2915E9B34900B3713E /* WowItemView.m */; };
 		CB9FDD3615E9B34900B3713E /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		DD802C9315ECB7C60043E6E7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */; };
+		DD802C9415ECB7C60043E6E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
+		DD802C9515ECB7C60043E6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
+		DD802C9B15ECB7C70043E6E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD802C9915ECB7C70043E6E7 /* InfoPlist.strings */; };
+		DD802CA615ECCB130043E6E7 /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD802CA515ECCB130043E6E7 /* WowUtilsTests.m */; };
+		DD802CA715ECCDF00043E6E7 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		DD802CA815ECCDF00043E6E7 /* Guild.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1F15E9B34900B3713E /* Guild.m */; };
+		DD802CA915ECCDF00043E6E7 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
+		DD802CAA15ECCDF00043E6E7 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		DD802CB815ECD07B0043E6E7 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD802CAF15ECD07B0043E6E7 /* CharacterTests.m */; };
+		DD802CB915ECD07B0043E6E7 /* GuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD802CB115ECD07B0043E6E7 /* GuildTests.m */; };
+		DD802CBA15ECD07B0043E6E7 /* ItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD802CB315ECD07B0043E6E7 /* ItemTests.m */; };
+		DD802CBB15ECD07B0043E6E7 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = DD802CB515ECD07B0043E6E7 /* character.json */; };
+		DD802CBC15ECD07B0043E6E7 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = DD802CB615ECD07B0043E6E7 /* guild.json */; };
+		DD802CBD15ECD07B0043E6E7 /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = DD802CB715ECD07B0043E6E7 /* item.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9FDC3A15E9872D00B3713E;
+			remoteInfo = GuildBrowser;
+		};
+		DD802CAB15ECCE450043E6E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CB9FDC3215E9872D00B3713E /* Project object */;
 			proxyType = 1;
@@ -153,6 +175,21 @@
 		CB9FDD2915E9B34900B3713E /* WowItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowItemView.m; sourceTree = "<group>"; };
 		CB9FDD2A15E9B34900B3713E /* WoWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoWUtils.h; sourceTree = "<group>"; };
 		CB9FDD2B15E9B34900B3713E /* WoWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoWUtils.m; sourceTree = "<group>"; };
+		DD802C9215ECB7C60043E6E7 /* GuildBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD802C9815ECB7C70043E6E7 /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
+		DD802C9A15ECB7C70043E6E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD802C9F15ECB7C70043E6E7 /* GuildBrowserLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuildBrowserLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		DD802CA415ECCB130043E6E7 /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
+		DD802CA515ECCB130043E6E7 /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
+		DD802CAE15ECD07B0043E6E7 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
+		DD802CAF15ECD07B0043E6E7 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		DD802CB015ECD07B0043E6E7 /* GuildTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuildTests.h; sourceTree = "<group>"; };
+		DD802CB115ECD07B0043E6E7 /* GuildTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuildTests.m; sourceTree = "<group>"; };
+		DD802CB215ECD07B0043E6E7 /* ItemTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTests.h; sourceTree = "<group>"; };
+		DD802CB315ECD07B0043E6E7 /* ItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTests.m; sourceTree = "<group>"; };
+		DD802CB515ECD07B0043E6E7 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
+		DD802CB615ECD07B0043E6E7 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
+		DD802CB715ECD07B0043E6E7 /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +213,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD802C8E15ECB7C60043E6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD802C9315ECB7C60043E6E7 /* SenTestingKit.framework in Frameworks */,
+				DD802C9415ECB7C60043E6E7 /* UIKit.framework in Frameworks */,
+				DD802C9515ECB7C60043E6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -186,6 +233,7 @@
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
 				CB9FDC6315E9872E00B3713E /* GuildBrowserTests */,
+				DD802C9615ECB7C60043E6E7 /* GuildBrowserLogicTests */,
 				CB9FDC3E15E9872D00B3713E /* Frameworks */,
 				CB9FDC3C15E9872D00B3713E /* Products */,
 			);
@@ -196,6 +244,7 @@
 			children = (
 				CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */,
 				CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */,
+				DD802C9215ECB7C60043E6E7 /* GuildBrowserLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,6 +410,51 @@
 			name = "view controllers";
 			sourceTree = "<group>";
 		};
+		DD802C9615ECB7C60043E6E7 /* GuildBrowserLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD802CAD15ECD07B0043E6E7 /* testclasses */,
+				DD802CB415ECD07B0043E6E7 /* testdata */,
+				DD802C9715ECB7C70043E6E7 /* Supporting Files */,
+				DD802CA415ECCB130043E6E7 /* WowUtilsTests.h */,
+				DD802CA515ECCB130043E6E7 /* WowUtilsTests.m */,
+			);
+			path = GuildBrowserLogicTests;
+			sourceTree = "<group>";
+		};
+		DD802C9715ECB7C70043E6E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD802C9815ECB7C70043E6E7 /* GuildBrowserLogicTests-Info.plist */,
+				DD802C9915ECB7C70043E6E7 /* InfoPlist.strings */,
+				DD802C9F15ECB7C70043E6E7 /* GuildBrowserLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD802CAD15ECD07B0043E6E7 /* testclasses */ = {
+			isa = PBXGroup;
+			children = (
+				DD802CAE15ECD07B0043E6E7 /* CharacterTests.h */,
+				DD802CAF15ECD07B0043E6E7 /* CharacterTests.m */,
+				DD802CB015ECD07B0043E6E7 /* GuildTests.h */,
+				DD802CB115ECD07B0043E6E7 /* GuildTests.m */,
+				DD802CB215ECD07B0043E6E7 /* ItemTests.h */,
+				DD802CB315ECD07B0043E6E7 /* ItemTests.m */,
+			);
+			path = testclasses;
+			sourceTree = "<group>";
+		};
+		DD802CB415ECD07B0043E6E7 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				DD802CB515ECD07B0043E6E7 /* character.json */,
+				DD802CB615ECD07B0043E6E7 /* guild.json */,
+				DD802CB715ECD07B0043E6E7 /* item.json */,
+			);
+			path = testdata;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -400,6 +494,25 @@
 			productReference = CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		DD802C9115ECB7C60043E6E7 /* GuildBrowserLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD802CA215ECB7C70043E6E7 /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */;
+			buildPhases = (
+				DD802C8D15ECB7C60043E6E7 /* Sources */,
+				DD802C8E15ECB7C60043E6E7 /* Frameworks */,
+				DD802C8F15ECB7C60043E6E7 /* Resources */,
+				DD802C9015ECB7C60043E6E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD802CAC15ECCE450043E6E7 /* PBXTargetDependency */,
+			);
+			name = GuildBrowserLogicTests;
+			productName = GuildBrowserLogicTests;
+			productReference = DD802C9215ECB7C60043E6E7 /* GuildBrowserLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -423,6 +536,7 @@
 			targets = (
 				CB9FDC3A15E9872D00B3713E /* GuildBrowser */,
 				CB9FDC5B15E9872E00B3713E /* GuildBrowserTests */,
+				DD802C9115ECB7C60043E6E7 /* GuildBrowserLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,10 +579,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD802C8F15ECB7C60043E6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD802C9B15ECB7C70043E6E7 /* InfoPlist.strings in Resources */,
+				DD802CBB15ECD07B0043E6E7 /* character.json in Resources */,
+				DD802CBC15ECD07B0043E6E7 /* guild.json in Resources */,
+				DD802CBD15ECD07B0043E6E7 /* item.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		CB9FDC5A15E9872E00B3713E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		DD802C9015ECB7C60043E6E7 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -522,6 +660,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD802C8D15ECB7C60043E6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD802CA715ECCDF00043E6E7 /* Character.m in Sources */,
+				DD802CA815ECCDF00043E6E7 /* Guild.m in Sources */,
+				DD802CA915ECCDF00043E6E7 /* Item.m in Sources */,
+				DD802CAA15ECCDF00043E6E7 /* WoWUtils.m in Sources */,
+				DD802CA615ECCB130043E6E7 /* WowUtilsTests.m in Sources */,
+				DD802CB815ECD07B0043E6E7 /* CharacterTests.m in Sources */,
+				DD802CB915ECD07B0043E6E7 /* GuildTests.m in Sources */,
+				DD802CBA15ECD07B0043E6E7 /* ItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -529,6 +682,11 @@
 			isa = PBXTargetDependency;
 			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
 			targetProxy = CB9FDC6115E9872E00B3713E /* PBXContainerItemProxy */;
+		};
+		DD802CAC15ECCE450043E6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9FDC3A15E9872D00B3713E /* GuildBrowser */;
+			targetProxy = DD802CAB15ECCE450043E6E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -553,6 +711,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				CB9FDC6715E9872E00B3713E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD802C9915ECB7C70043E6E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD802C9A15ECB7C70043E6E7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -665,6 +831,36 @@
 			};
 			name = Release;
 		};
+		DD802CA015ECB7C70043E6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DD802CA115ECB7C70043E6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuildBrowserLogicTests/GuildBrowserLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "GuildBrowserLogicTests/GuildBrowserLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -694,6 +890,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DD802CA215ECB7C70043E6E7 /* Build configuration list for PBXNativeTarget "GuildBrowserLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD802CA015ECB7C70043E6E7 /* Debug */,
+				DD802CA115ECB7C70043E6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

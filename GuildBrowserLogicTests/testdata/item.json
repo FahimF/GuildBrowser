@@ -1,0 +1,70 @@
+{
+    "containerSlots": 0,
+    "requiredSkillRank": 0,
+    "maxCount": 0,
+    "itemClass": 4,
+    "icon": "inv_pants_plate_dungeonplate_c_06",
+    "itemSubClass": 4,
+    "maxDurability": 120,
+    "sellPrice": 251083,
+    "buyPrice": 1255415,
+    "stackable": 1,
+    "minFactionId": 0,
+    "name": "Bloodhoof Legguards",
+    "baseArmor": 3169,
+    "itemLevel": 378,
+    "minReputation": 0,
+    "id": 72815,
+    "quality": 4,
+    "inventoryType": 7,
+    "disenchantingSkillRank": 475,
+    "requiredLevel": 85,
+    "itemBind": 1,
+    "hasSockets": true,
+    "itemSpells": [
+
+    ],
+    "equippable": true,
+    "requiredSkill": 0,
+    "socketInfo": {
+        "sockets": [
+            {
+                "type": "RED"
+            },
+            {
+                "type": "YELLOW"
+            }
+        ],
+        "socketBonus": "+30 Stamina"
+    },
+    "itemSource": {
+        "sourceType": "CREATURE_DROP",
+        "sourceId": 54431
+    },
+    "isAuctionable": false,
+    "armor": 3169,
+    "displayInfoId": 102881,
+    "bonusStats": [
+        {
+            "amount": 366,
+            "reforged": false,
+            "stat": 4
+        },
+        {
+            "amount": 230,
+            "reforged": false,
+            "stat": 13
+        },
+        {
+            "amount": 263,
+            "reforged": false,
+            "stat": 14
+        },
+        {
+            "amount": 611,
+            "reforged": false,
+            "stat": 7
+        }
+    ],
+    "description": ""
+}
