@@ -32,7 +32,7 @@
         
         _neckItem = [Item initWithData:[data valueForKeyPath:@"items.neck"]];
         _wristItem = [Item initWithData:[data valueForKeyPath:@"items.wrist"]];
-        _waistItem = [Item initWithData:[data valueForKeyPath:@"items.waist"]];
+        _waistItem = [Item initWithData:[data valueForKeyPath:@"items.wrist"]];
         _handsItem = [Item initWithData:[data valueForKeyPath:@"items.hands"]];
         _shoulderItem = [Item initWithData:[data valueForKeyPath:@"items.shoulder"]];
         _chestItem = [Item initWithData:[data valueForKeyPath:@"items.chest"]];
