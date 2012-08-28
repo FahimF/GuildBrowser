@@ -190,6 +190,7 @@
 		DD802CB515ECD07B0043E6E7 /* character.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = character.json; sourceTree = "<group>"; };
 		DD802CB615ECD07B0043E6E7 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		DD802CB715ECD07B0043E6E7 /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
+		DD802CBE15ECE7F20043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdHoc_Distribution_Profile.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -425,6 +426,7 @@
 		DD802C9715ECB7C70043E6E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD802CBE15ECE7F20043E6E7 /* AdHoc_Distribution_Profile.mobileprovision */,
 				DD802C9815ECB7C70043E6E7 /* GuildBrowserLogicTests-Info.plist */,
 				DD802C9915ECB7C70043E6E7 /* InfoPlist.strings */,
 				DD802C9F15ECB7C70043E6E7 /* GuildBrowserLogicTests-Prefix.pch */,
@@ -789,10 +791,14 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
